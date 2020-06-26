@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <section>
+        <h2>ADD / REMOVE Items</h2>
+        <p>
+            items = [12, "apple", "orange", 23, 53]; <br> <br>
+
+            Adds items to the end <br>
+            items.push("strawberry"); //returns new total length<br>
+            items = [12, "apple", "orange", 23, 53, "strawberry"]; <br><br>
+
+            Extracts an item from the end <br>
+            items.pop(); //returns last element<br>
+            items = [12, "apple", "orange", 23]; <br><br>
+
+            Extracts an item from the beginning <br>
+            items.shift(); //returns first element<br>
+            items = ["apple", "orange", 23, 53]; <br><br>
+
+            Adds items to the beginning <br>
+            items.unshift(45); //returns new total length<br>
+            items = [45, 12, "apple", "orange", 23, 53]; <br><br>
+
+            Returns a copied slice from the original array <br>
+            items.slice() //returns a copy from the original array<br><br>
+
+            Changes the content of the array in place <br>
+            items.splice(1, 1, "banana")) // returns elements removed<br>
+            items.splice(index, #elements to remove, elements to add)) // returns elements removed<br>
+            items = [12, "banana", "orange", 23, 53]; <br><br>
+
+            Merge two or more arrays <br>
+            items2 = [12, "potate", "tomate", 79, 94] <br>
+            items.concat(items2); //returns new array merged<br><br>
+
+        </p>
+    </section>
+
+</body>
+
+</html>
